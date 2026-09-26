@@ -16,29 +16,31 @@ Jurnal pribadi berbasis Flutter untuk menyimpan satu kalimat dari setiap hari.
 
 Jurnal ini dibuat untuk mencatat hal kecil yang biasanya cepat terlupakan. Kamu bisa menulis catatan hari ini, kembali ke tanggal sebelumnya, lalu melihat pola mood dan tema setelah beberapa hari.
 
-## Fitur utama
+## ✨ Fitur utama
 
 | Fitur | Kegunaan |
 | --- | --- |
-| Satu kalimat | Menulis catatan dengan batas 160 karakter. |
-| Mood dan tema | Memberi konteks pada setiap catatan. |
-| Kalender riwayat | Mengisi, mengedit, atau menghapus catatan berdasarkan tanggal. |
-| Refleksi | Membaca pola 7 hari, 30 hari, atau seluruh catatan. |
-| Streak menulis | Melihat kebiasaan menulis saat ini dan rekor terpanjang. |
-| Ekspor data | Menyalin jurnal sebagai JSON atau menyimpannya sebagai file. |
-| Mode gelap | Mengubah tampilan sesuai kenyamanan membaca. |
+| ✍️ Satu kalimat | Menulis catatan dengan batas 160 karakter. |
+| 🌿 Mood dan tema | Memberi konteks pada setiap catatan. |
+| 🗓️ Kalender riwayat | Mengisi, mengedit, atau menghapus catatan berdasarkan tanggal. |
+| 📈 Refleksi | Membaca pola 7 hari, 30 hari, atau seluruh catatan. |
+| 🔥 Streak menulis | Melihat kebiasaan menulis saat ini dan rekor terpanjang. |
+| 📤 Ekspor data | Menyalin jurnal sebagai JSON atau menyimpannya sebagai file. |
+| 🌙 Mode gelap | Mengubah tampilan sesuai kenyamanan membaca. |
 
-## Dibangun dengan
+## 🧰 Dibangun dengan
 
-- Flutter
-- Dart
-- Material 3
-- `shared_preferences` untuk penyimpanan lokal
-- `table_calendar` untuk riwayat tanggal
-- `fl_chart` untuk grafik mood
-- `path_provider` untuk ekspor file JSON
+| Teknologi | Peran |
+| --- | --- |
+| 📱 Flutter | Framework aplikasi mobile |
+| 🎯 Dart | Bahasa pemrograman |
+| 🎨 Material 3 | Sistem komponen antarmuka |
+| 💾 `shared_preferences` | Penyimpanan jurnal secara lokal |
+| 🗓️ `table_calendar` | Kalender riwayat catatan |
+| 📊 `fl_chart` | Grafik mood dan refleksi |
+| 📁 `path_provider` | Menyiapkan lokasi ekspor file JSON |
 
-## Menjalankan project
+## 🚀 Menjalankan project
 
 Pastikan Flutter dan Android SDK sudah terpasang, lalu jalankan:
 
@@ -53,7 +55,7 @@ Untuk menjalankan test:
 flutter test
 ```
 
-## Struktur project
+## 🗂️ Struktur project
 
 ```text
 lib/
@@ -65,10 +67,10 @@ lib/
 └── main.dart   # Entry point aplikasi
 ```
 
-## Catatan privasi
+## 🔒 Catatan privasi
 
 Jurnal disimpan secara lokal menggunakan penyimpanan perangkat. Aplikasi ini tidak memiliki akun atau server untuk mengirim isi jurnal.
 
-## Status project
+## 📌 Status project
 
 Versi saat ini masih berupa MVP pribadi. Pengingat harian belum tersedia.
