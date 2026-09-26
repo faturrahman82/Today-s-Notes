@@ -1,22 +1,34 @@
-# Jurnal Hari Ini
+<p align="center">
+  <img src="assets/jurnal-icon.svg" alt="Ikon Jurnal Hari Ini" width="128">
+</p>
+
+<h1 align="center">Jurnal Hari Ini</h1>
+
+<p align="center">Satu kalimat untuk menyimpan bagian kecil dari harimu.</p>
+
+<p align="center">
+  <a href="https://flutter.dev">Flutter</a> ·
+  Penyimpanan lokal ·
+  Refleksi 30 hari
+</p>
 
 Jurnal pribadi berbasis Flutter untuk menyimpan satu kalimat dari setiap hari.
 
 Jurnal ini dibuat untuk mencatat hal kecil yang biasanya cepat terlupakan. Kamu bisa menulis catatan hari ini, kembali ke tanggal sebelumnya, lalu melihat pola mood dan tema setelah beberapa hari.
 
-## Fitur
+## Fitur utama
 
-- Menulis satu kalimat dengan batas 160 karakter.
-- Memberi nilai mood dan tema pada setiap catatan.
-- Mengisi catatan untuk tanggal sebelumnya jika sempat lupa.
-- Mengedit atau menghapus catatan dari kalender riwayat.
-- Melihat refleksi 7 hari, 30 hari, atau seluruh catatan.
-- Melihat grafik mood, tema yang sering muncul, dan streak menulis.
-- Menggunakan mode gelap.
-- Menyalin jurnal sebagai JSON atau menyimpannya sebagai file.
-- Menyimpan data secara lokal di perangkat.
+| Fitur | Kegunaan |
+| --- | --- |
+| Satu kalimat | Menulis catatan dengan batas 160 karakter. |
+| Mood dan tema | Memberi konteks pada setiap catatan. |
+| Kalender riwayat | Mengisi, mengedit, atau menghapus catatan berdasarkan tanggal. |
+| Refleksi | Membaca pola 7 hari, 30 hari, atau seluruh catatan. |
+| Streak menulis | Melihat kebiasaan menulis saat ini dan rekor terpanjang. |
+| Ekspor data | Menyalin jurnal sebagai JSON atau menyimpannya sebagai file. |
+| Mode gelap | Mengubah tampilan sesuai kenyamanan membaca. |
 
-## Teknologi
+## Dibangun dengan
 
 - Flutter
 - Dart
@@ -57,6 +69,6 @@ lib/
 
 Jurnal disimpan secara lokal menggunakan penyimpanan perangkat. Aplikasi ini tidak memiliki akun atau server untuk mengirim isi jurnal.
 
-## Status
+## Status project
 
 Versi saat ini masih berupa MVP pribadi. Pengingat harian belum tersedia.
